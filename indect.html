@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Password</title>
+
+      <script type="text/javascript">
+
+        function checkpassword() {
+        	var password = document.getElementById("passwordbox");
+        	var passwordText=password.value;
+        	if(passwordText == "mountaintop"){
+        		return true; 
+        	}
+        	else{
+        		alert(" B  R  U  H")
+        		return false;
+        	}
+        }
+
+
+      </script>
+
+</head>
+<body>
+
+<p style="font-size: 45px;">Welcome.</p>
+<p style="font-size: 25px;">Please enter password to view the website.</p>
+
+<p>Password:<input id="passwordbox" type="password"></p>
+
+<a href="web.html" onclick="return checkpassword()">WELCOME TO HELL</a>
+</body>
+</html>
